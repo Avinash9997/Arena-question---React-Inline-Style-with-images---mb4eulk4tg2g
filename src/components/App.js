@@ -1,3 +1,5 @@
+export default App;
+
 import React from 'react'
 import '../styles/App.css';
 import pic from '../NewtonSchool.jpg'
@@ -6,7 +8,9 @@ const App = () => {
   return (
     <div id="navbar">
       <div>NavBar</div>
-      <img />
+      <img src={pic} style={{width: '130px',
+height: '100px',
+margin: '10px'}}/>
     </div>
   )
 }

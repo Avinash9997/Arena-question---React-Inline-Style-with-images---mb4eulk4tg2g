@@ -1,5 +1,3 @@
-export default App;
-
 import React from 'react'
 import '../styles/App.css';
 import pic from '../NewtonSchool.jpg'
